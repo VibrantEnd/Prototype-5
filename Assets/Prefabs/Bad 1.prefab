@@ -108,8 +108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.42912176, y: 0.5520757, z: 0.46483076}
-  m_Center: {x: 0, y: -0.02673658, z: -0.023982435}
+  m_Size: {x: 0.5952857, y: 0.72118074, z: 0.73294663}
+  m_Center: {x: 0.003676176, y: -0.026001453, z: 0.016417885}
 --- !u!54 &1971544688935233030
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionParticle: {fileID: 0}
-  pointValue: 0
+  pointValue: -20

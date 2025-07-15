@@ -37,6 +37,7 @@ public class Target : MonoBehaviour
     {
         if (gameManager.isGameActive)
         {
+            Debug.Log("Clicked on target: "+ gameObject.name);
             Destroy(gameObject);
             Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
             gameManager.UpdateScore(pointValue);
